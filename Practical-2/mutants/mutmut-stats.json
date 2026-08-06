@@ -1,0 +1,186 @@
+{
+    "tests_by_mangled_function_name": {
+        "cart.x_apply_discount": [
+            "test_cart_weak.py::TestApplyDiscount::test_returns_something",
+            "test_cart.py::TestApplyDiscount::test_boundary_0_valid",
+            "test_cart.py::TestApplyCoupon::test_coupon_on_zero_total",
+            "test_cart_weak.py::TestApplyCoupon::test_SAVE10_reduces_total",
+            "test_cart.py::TestApplyDiscount::test_zero_discount",
+            "test_cart_weak.py::TestFinalBill::test_with_coupon_is_less_than_without",
+            "test_cart.py::TestApplyDiscount::test_full_discount",
+            "test_cart.py::TestApplyDiscount::test_boundary_100_valid",
+            "test_cart_weak.py::TestApplyDiscount::test_raises_on_negative",
+            "test_cart.py::TestFinalBill::test_with_coupon_pushes_below_threshold",
+            "test_cart.py::TestFinalBill::test_with_coupon_still_below_threshold",
+            "test_cart.py::TestApplyDiscount::test_negative_discount_raises",
+            "test_cart.py::TestApplyCoupon::test_SAVE20",
+            "test_cart.py::TestApplyDiscount::test_over_100_raises",
+            "test_cart.py::TestFinalBill::test_with_coupon_stays_above_threshold",
+            "test_cart.py::TestApplyCoupon::test_SAVE10",
+            "test_cart.py::TestApplyCoupon::test_HALFOFF",
+            "test_cart.py::TestApplyDiscount::test_50_percent",
+            "test_cart.py::TestApplyDiscount::test_10_percent"
+        ],
+        "cart.x_cart_total": [
+            "test_cart.py::TestFinalBill::test_with_coupon_still_below_threshold",
+            "test_cart.py::TestFinalBill::test_empty_cart_no_coupon",
+            "test_cart.py::TestCartTotal::test_empty_cart",
+            "test_cart.py::TestCartTotal::test_multiple_items",
+            "test_cart_weak.py::TestFinalBill::test_returns_a_number",
+            "test_cart.py::TestFinalBill::test_no_coupon_below_shipping_threshold",
+            "test_cart.py::TestCartTotal::test_qty_one",
+            "test_cart_weak.py::TestCartTotal::test_empty_cart",
+            "test_cart_weak.py::TestCartTotal::test_total_is_positive",
+            "test_cart.py::TestFinalBill::test_no_coupon_above_shipping_threshold",
+            "test_cart.py::TestCartTotal::test_large_qty",
+            "test_cart.py::TestFinalBill::test_with_coupon_stays_above_threshold",
+            "test_cart_weak.py::TestFinalBill::test_with_coupon_is_less_than_without",
+            "test_cart.py::TestCartTotal::test_single_item",
+            "test_cart.py::TestFinalBill::test_with_coupon_pushes_below_threshold"
+        ],
+        "cart.x_apply_coupon": [
+            "test_cart.py::TestFinalBill::test_with_coupon_still_below_threshold",
+            "test_cart.py::TestApplyCoupon::test_SAVE10",
+            "test_cart.py::TestApplyCoupon::test_SAVE20",
+            "test_cart_weak.py::TestApplyCoupon::test_SAVE10_reduces_total",
+            "test_cart.py::TestApplyCoupon::test_invalid_coupon_raises",
+            "test_cart.py::TestApplyCoupon::test_HALFOFF",
+            "test_cart.py::TestApplyCoupon::test_coupon_on_zero_total",
+            "test_cart.py::TestFinalBill::test_with_coupon_stays_above_threshold",
+            "test_cart_weak.py::TestFinalBill::test_with_coupon_is_less_than_without",
+            "test_cart_weak.py::TestApplyCoupon::test_invalid_raises",
+            "test_cart.py::TestFinalBill::test_with_coupon_pushes_below_threshold"
+        ],
+        "cart.x_shipping_cost": [
+            "test_cart.py::TestFinalBill::test_with_coupon_still_below_threshold",
+            "test_cart.py::TestShippingCost::test_below_threshold",
+            "test_cart.py::TestShippingCost::test_zero_total",
+            "test_cart.py::TestFinalBill::test_empty_cart_no_coupon",
+            "test_cart_weak.py::TestFinalBill::test_returns_a_number",
+            "test_cart.py::TestShippingCost::test_above_threshold",
+            "test_cart.py::TestShippingCost::test_just_below_threshold",
+            "test_cart.py::TestFinalBill::test_no_coupon_below_shipping_threshold",
+            "test_cart_weak.py::TestShippingCost::test_high_total_free",
+            "test_cart.py::TestFinalBill::test_no_coupon_above_shipping_threshold",
+            "test_cart_weak.py::TestShippingCost::test_low_total_paid",
+            "test_cart.py::TestFinalBill::test_with_coupon_stays_above_threshold",
+            "test_cart_weak.py::TestFinalBill::test_with_coupon_is_less_than_without",
+            "test_cart.py::TestShippingCost::test_at_threshold",
+            "test_cart.py::TestFinalBill::test_with_coupon_pushes_below_threshold"
+        ],
+        "cart.x_item_count": [
+            "test_cart.py::TestItemCount::test_single_item",
+            "test_cart.py::TestItemCount::test_empty",
+            "test_cart.py::TestItemCount::test_multiple_items",
+            "test_cart_weak.py::TestItemCount::test_single"
+        ],
+        "cart.x_is_eligible_for_bulk": [
+            "test_cart.py::TestIsEligibleForBulk::test_exactly_10",
+            "test_cart.py::TestIsEligibleForBulk::test_above_10",
+            "test_cart_weak.py::TestIsEligibleForBulk::test_small_qty",
+            "test_cart_weak.py::TestIsEligibleForBulk::test_large_qty",
+            "test_cart.py::TestIsEligibleForBulk::test_qty_1",
+            "test_cart.py::TestIsEligibleForBulk::test_below_10"
+        ],
+        "cart.x_final_bill": [
+            "test_cart.py::TestFinalBill::test_with_coupon_still_below_threshold",
+            "test_cart.py::TestFinalBill::test_empty_cart_no_coupon",
+            "test_cart_weak.py::TestFinalBill::test_returns_a_number",
+            "test_cart.py::TestFinalBill::test_no_coupon_below_shipping_threshold",
+            "test_cart.py::TestFinalBill::test_no_coupon_above_shipping_threshold",
+            "test_cart_weak.py::TestFinalBill::test_with_coupon_is_less_than_without",
+            "test_cart.py::TestFinalBill::test_with_coupon_stays_above_threshold",
+            "test_cart.py::TestFinalBill::test_with_coupon_pushes_below_threshold"
+        ]
+    },
+    "duration_by_test": {
+        "test_cart.py::TestApplyDiscount::test_zero_discount": 0.000738599999976941,
+        "test_cart.py::TestApplyDiscount::test_full_discount": 0.0006195010003011703,
+        "test_cart.py::TestApplyDiscount::test_10_percent": 0.0004960999999639171,
+        "test_cart.py::TestApplyDiscount::test_50_percent": 0.0010134999999991123,
+        "test_cart.py::TestApplyDiscount::test_negative_discount_raises": 0.0006439009998757683,
+        "test_cart.py::TestApplyDiscount::test_over_100_raises": 0.001281500000231972,
+        "test_cart.py::TestApplyDiscount::test_boundary_0_valid": 0.0022499010003684816,
+        "test_cart.py::TestApplyDiscount::test_boundary_100_valid": 0.0007213999999748921,
+        "test_cart.py::TestCartTotal::test_single_item": 0.0005569999998442654,
+        "test_cart.py::TestCartTotal::test_multiple_items": 0.00045350100026553264,
+        "test_cart.py::TestCartTotal::test_empty_cart": 0.0008564000002024841,
+        "test_cart.py::TestCartTotal::test_qty_one": 0.0015023010000732029,
+        "test_cart.py::TestCartTotal::test_large_qty": 0.0004467000003387511,
+        "test_cart.py::TestApplyCoupon::test_SAVE10": 0.0006209999999100546,
+        "test_cart.py::TestApplyCoupon::test_SAVE20": 0.0004876000000422209,
+        "test_cart.py::TestApplyCoupon::test_HALFOFF": 0.0009838000000854663,
+        "test_cart.py::TestApplyCoupon::test_invalid_coupon_raises": 0.0007040999998935149,
+        "test_cart.py::TestApplyCoupon::test_coupon_on_zero_total": 0.0007688000000598549,
+        "test_cart.py::TestShippingCost::test_below_threshold": 0.0003844009997919784,
+        "test_cart.py::TestShippingCost::test_at_threshold": 0.00037279999992279045,
+        "test_cart.py::TestShippingCost::test_above_threshold": 0.00033699999994496466,
+        "test_cart.py::TestShippingCost::test_zero_total": 0.00029799999992974335,
+        "test_cart.py::TestShippingCost::test_just_below_threshold": 0.00033560000019861036,
+        "test_cart.py::TestItemCount::test_single_item": 0.0005352000000584667,
+        "test_cart.py::TestItemCount::test_multiple_items": 0.0006995999999617197,
+        "test_cart.py::TestItemCount::test_empty": 0.000548199999911958,
+        "test_cart.py::TestIsEligibleForBulk::test_exactly_10": 0.0005316000001585053,
+        "test_cart.py::TestIsEligibleForBulk::test_above_10": 0.0004521000000750064,
+        "test_cart.py::TestIsEligibleForBulk::test_below_10": 0.0007496999996874365,
+        "test_cart.py::TestIsEligibleForBulk::test_qty_1": 0.0004955999997946492,
+        "test_cart.py::TestFinalBill::test_no_coupon_below_shipping_threshold": 0.005235400999936246,
+        "test_cart.py::TestFinalBill::test_no_coupon_above_shipping_threshold": 0.0007809999999608408,
+        "test_cart.py::TestFinalBill::test_with_coupon_still_below_threshold": 0.0005370000001221342,
+        "test_cart.py::TestFinalBill::test_with_coupon_pushes_below_threshold": 0.0006335000000490254,
+        "test_cart.py::TestFinalBill::test_with_coupon_stays_above_threshold": 0.0006306999998741958,
+        "test_cart.py::TestFinalBill::test_empty_cart_no_coupon": 0.0030237010000746523,
+        "test_cart_weak.py::TestApplyDiscount::test_returns_something": 0.000629799999842362,
+        "test_cart_weak.py::TestApplyDiscount::test_raises_on_negative": 0.0005156999998234824,
+        "test_cart_weak.py::TestCartTotal::test_empty_cart": 0.0006739000000379747,
+        "test_cart_weak.py::TestCartTotal::test_total_is_positive": 0.001002799999923809,
+        "test_cart_weak.py::TestApplyCoupon::test_SAVE10_reduces_total": 0.003762001000040982,
+        "test_cart_weak.py::TestApplyCoupon::test_invalid_raises": 0.000667299999804527,
+        "test_cart_weak.py::TestShippingCost::test_high_total_free": 0.0019499999998515705,
+        "test_cart_weak.py::TestShippingCost::test_low_total_paid": 0.001042000000097687,
+        "test_cart_weak.py::TestItemCount::test_single": 0.002621800999804691,
+        "test_cart_weak.py::TestIsEligibleForBulk::test_large_qty": 0.0015003010000782524,
+        "test_cart_weak.py::TestIsEligibleForBulk::test_small_qty": 0.0007831999998870742,
+        "test_cart_weak.py::TestFinalBill::test_returns_a_number": 0.0006578010002158408,
+        "test_cart_weak.py::TestFinalBill::test_with_coupon_is_less_than_without": 0.0005287999999836757
+    },
+    "stats_time": 0.49080200000000007,
+    "function_hashes": {
+        "cart.x_apply_discount": "e0545f1c3c9e",
+        "cart.x_cart_total": "138d395200d6",
+        "cart.x_apply_coupon": "4d840ed83324",
+        "cart.x_shipping_cost": "5379bbb06849",
+        "cart.x_item_count": "3eff9f2e8828",
+        "cart.x_is_eligible_for_bulk": "e016d630418f",
+        "cart.x_final_bill": "ba8d43e2d3de"
+    },
+    "function_dependencies": {
+        "cart.x_apply_discount": [
+            "cart.x_apply_coupon"
+        ],
+        "cart.x_cart_total": [
+            "cart.x_final_bill"
+        ],
+        "cart.x_shipping_cost": [
+            "cart.x_final_bill"
+        ],
+        "cart.x_apply_coupon": [
+            "cart.x_final_bill"
+        ]
+    },
+    "config_fingerprint": {
+        "test_execution": "2e38e77b22c3",
+        "test_selection": "eea4191301c7",
+        "timeout": "d3052321fdc3",
+        "type_check": "2e38e77b22c3"
+    },
+    "watched_file_hashes": {
+        "setup.cfg": "98bf2c477d0e",
+        "__pycache__/cart.cpython-313.pyc": "02a58b3a0807",
+        "__pycache__/test_cart.cpython-313-pytest-9.1.1.pyc": "8c7e17eb35bd",
+        "mutants/cart.py.meta": "001b92890853",
+        "mutants/cart.py.spans": "8e4d28a979e6",
+        "mutants/setup.cfg": "98bf2c477d0e"
+    },
+    "git_commit": "9b0668f598b586e4ad5de9e8701e59af5575368e"
+}
